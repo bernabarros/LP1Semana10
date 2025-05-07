@@ -17,12 +17,6 @@ namespace EqualPlayer
             {
                 Console.WriteLine($"{p.Name} is a {p.PClass}");
             }
-
-            Player p1 = new Player(PlayerClass.Fighter, "Berna");
-            Player p2 = new Player(PlayerClass.Fighter, "Berna");
-
-            Console.WriteLine($"({p1.GetHashCode() == p2.GetHashCode()})");
-            Console.WriteLine($"{p1.Equals(p2)}");
         }
     }
 }
